@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="/css/style2.css">
+        <title> Practica"Me gusta" parte II</title>
+    </head>
+    <body>
+        <div class="nav">
+            <h1>Network</h1>
+        </div>
+        <div class="container">
+            <h1>Your Feed</h1>
+            <div class="boxprincipal">
+                <div class="column1">
+                    <div class="box1">
+                        <img src="/img/user-circle.png" alt="usuario">
+                        <a href="#" target="_blank">Add an avatar</a>
+                        <h1>James Does</h1>
+                    </div>
+                </div>
+                <div class="column2">
+                    <div class="box2">
+                        <div class="boxheader">
+                            <h2>Neil M</h2>
+                            <h4 id="count2">9 like(s)</h4>
+                            <button class="btn" onclick="like('count2',0)">Like</button>
+                        </div>
+                        <p>I just set up this new discord bot, let me <br> know what you all think.<a href="#" target="_blank">link</a></p>
+                    </div>
+                    <div class="box2">
+                        <div class="boxheader">
+                            <h2>Nichole K</h2>
+                            <h4 id="count3"> 12 like(s)</h4>
+                            <button class="btn" onclick="like('count3',1)">Like</button>
+                        </div>
+                        <p>Just finished my <a href="#" target="_blank">next comic,</a>check it out.</p>
+                    </div>
+                    <div class="box2">
+                        <div class="boxheader">
+                            <h2>Jim R</h2>
+                            <h4 id="count4"> 9 like(s)</h4>
+                            <button class="btn" onclick="like('count4',2)">Like</button>
+                        </div>
+                        <p> I can't stop listening to the <a href="#" target="_blank">new album.</a><br>Who else is liking it?</p>
+                </div>
+            </div>
+        </div>
+        <script src="megusta2.js"></script>
+    </body>
+</html>
